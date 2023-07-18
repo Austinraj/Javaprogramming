@@ -9,14 +9,18 @@ package workout_programs;
  *
  * @author JeromeInfant
  */
-public class EvenNumber {
+public class fivonacciseris {
     public static void main (String[]args){
-        System.out.println("this is the even number");
-        for(int i=1;i<=30;i++){
-            if(i%2==0){
-             System.out.println(i);   
-            }
-        }
+        int a=0;int b=1;
+        System.out.println(a);
+        System.out.println(b);
+        for(int i=1;i<=6;i++){
+            int c =a+b;
+            System.out.println(c);
+            a=b;
+            b=c;
+    
+}
         
     }
 }

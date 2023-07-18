@@ -9,13 +9,16 @@ package workout_programs;
  *
  * @author JeromeInfant
  */
-public class Contine {
+public class SumOfOddNumber {
     public static void main(String[]args){
-        for(int i=1;i<=10;i++){
-            if(i==6){
-                continue;
+        int count=0;
+        for(int i=1;i<=100;i++)
+        {
+            if(i% 2==1)
+            {
+                count=count+i;
             }
-            System.out.println(i);
         }
+        System.out.println(count);
     }
 }

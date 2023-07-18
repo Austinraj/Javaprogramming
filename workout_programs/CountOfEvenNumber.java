@@ -9,15 +9,16 @@ package workout_programs;
  *
  * @author JeromeInfant
  */
-public class InnerForLoop {
+public class CountOfEvenNumber {
    public static void main(String[]args){
-       for(int i=1;i<=9;i++){
-           for(int j=1;j<=10;j++){
-               System.out.print(i);
-              
+       int count =0;
+       for(int i=1;i<=100;i++){
+           if(i %2==0){
+               count=count+1;
            }
-       
-       System.out.println();
-   } }
-   
+                   
+                   
+       }
+       System.out.println(count);
+   } 
 }

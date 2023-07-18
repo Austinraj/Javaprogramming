@@ -9,9 +9,12 @@ package workout_programs;
  *
  * @author JeromeInfant
  */
-public class example {
-    public static void main(String []args){
-        
+public class FactoricalNumder {
+    public static void main(String[]args){
+        int count=1;
+        for(int i=1;i<=9;i++){
+            count=count*i;
+        }
+        System.out.println(count);
     }
-    
 }
